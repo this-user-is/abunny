@@ -1,1 +1,66 @@
-a
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🐇</title>
+<style>
+    body { margin: 0; padding: 0; background-color: transparent; overflow-x: hidden; }
+    #content-wrapper { padding-top: 15px; padding-bottom: 50px; }
+
+</style>
+</head>
+<body>
+
+<style>
+/* 폰트 및 전체 스타일 일괄 설정 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
+
+.tistory-post-wrapper {
+    font-family: 'Pretendard', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: -0.02em;
+    word-break: break-all;
+    overflow-wrap: anywhere;
+    padding: 0 25px;
+    box-sizing: border-box;
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+.tistory-post-wrapper * { box-sizing: border-box; }
+
+/* 티스토리 스킨의 이미지 간섭 방지 및 아바타 고정 */
+.tistory-post-wrapper img {
+    max-width: none !important;
+}
+.tistory-post-wrapper .av img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
+    margin: 0 !important;
+}
+
+/* 포스트잇 내부 내용 길어질 때 스크롤 */
+.postit-scroll {
+    max-height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 8px;
+}
+.postit-scroll::-webkit-scrollbar { width: 5px; }
+.postit-scroll::-webkit-scrollbar-track { background: transparent; }
+.postit-scroll::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.15); border-radius: 4px; }
+</style>
+
+<div id="content-wrapper" class="tistory-post-wrapper">
+<div data-type="title" style="width: 100%; margin: 0px 0 0; padding: 10px 0; box-sizing: border-box; font-size: 18pt; font-weight: bold; text-align: left; color: #1c1c1e; word-break: inherit;">Meeting</div>
+<div data-type="dday" style="width: 100%; margin: 20px 0; text-align: left; padding: 0; box-sizing: border-box;"><span style="font-size: 13px; color: #999999; font-weight: 600;"> 1주차_26.09.04 (金)</span></div>
+
+</div>
+</body>
+</html>
